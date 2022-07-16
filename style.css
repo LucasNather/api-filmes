@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --title: #fffcf9;
+    --subtitle: #b3b3b3;
+    --bg-button: #e9e6e3;
+    --background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+}
+
+body{
+    height: 100vh;
+    background: var(--background);
+    color: #fff;
+}
+
+main{
+    width: 60%;
+    margin:  0 auto;
+    text-align: center;
+}
+
+#logo{
+    width: 20%;
+}
+
+#logo-botao{
+    width: 10%;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.filmes p{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.filmes{
+    margin: 10px 0;
+    box-shadow: 1px 1px 3px black;
+    padding: 1em;
+}
+
